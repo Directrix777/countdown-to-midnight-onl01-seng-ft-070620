@@ -8,7 +8,7 @@ def countdown(num)
   return "Happy new year!".upcase
 end
 
-def countdown_with_sleep
+def countdown_with_sleep(num)
   while num != 0
     puts "#{num} Second(s)!".upcase
     num -= 1
