@@ -5,5 +5,5 @@ def countdown(num)
     puts "#{num} Second(s)!".upcase
     num -= 1
   end
-  puts "Happy new year!".upcase
+  return "Happy new year!".upcase
 end
